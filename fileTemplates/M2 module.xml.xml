@@ -1,0 +1,8 @@
+#parse("M2 variableSetup.php")
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="${ModuleName}"#if(${Setup_Version} != "") setup_version="${Setup_Version}"#else setup_version="0.1.0"#end />
+        #[[$END$]]#
+    </module>
+</config>

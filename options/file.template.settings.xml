@@ -1,0 +1,15 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="M2 db_schema.xml.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 di.xml.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 extension_attributes.xml.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 JS UiElement.js" reformat="true" live-template-enabled="true" />
+      <template name="M2 JS viewModel.js" reformat="true" live-template-enabled="true" />
+      <template name="M2 layout.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 module.xml.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 sections.xml.xml" reformat="true" live-template-enabled="true" />
+      <template name="M2 template.phtml.phtml" reformat="true" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>

@@ -1,0 +1,21 @@
+#parse("M2 variableSetup.php")
+{
+  "name": "${vendor.toLowerCase()}/module-${module.toLowerCase()}",
+  "description": "${Description}",
+  "require": {
+    "php": "~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "0.1.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "${vendor}\\\\${module}\\": ""
+    }
+  }
+}
