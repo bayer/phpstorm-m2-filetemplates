@@ -1,17 +1,13 @@
-# phpstorm-m2-filetemplates
-PHPStorm Magento 2 File Templates
-
+# PHPStorm File Templates for Magento 2
 Useful file templates for working with Magento 2.
 
-## To install, place the files directly in the appropriate folder. Note that [Version] corresponds to the version of PhpStorm you have installed.
+## Installation
+* clone the repository  
+`git clone https://github.com/bayer/phpstorm-m2-filetemplates.git`
+* create zip archive:  
+`git archive --output phpstorm-m2-templates.zip master`
+* import settings into PHPStorm:  
+Go to File -> Import Settings -> and open `phpstorm-m2-templates.zip`
 
-### Mac OS
-Place them in ~/Library/Preferences/PhpStorm[VERSION]/fileTemplates
+You will find the new templates in the 'Project Files' Tool Window if you right-click on a folder an chose 'New'
 
-### Windows
-Place them in [SYSTEM DRIVE]\Users\[USER ACCOUNT NAME]\.PhpStorm[VERSION]\config\fileTemplates
-
-### Linux
-Place them in ~/.PhpStorm[VERSION]/config/fileTemplates
-
-Create the directories if it's not present.
