@@ -1,6 +1,8 @@
 # PHPStorm File Templates for Magento 2
 Useful file templates for working with Magento 2.
 
+Vendor and Module name will be automatically detected from the Path of the Module.
+
 ## Installation
 * clone the repository  
 `git clone https://github.com/bayer/phpstorm-m2-filetemplates.git`
